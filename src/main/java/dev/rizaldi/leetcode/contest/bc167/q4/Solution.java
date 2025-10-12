@@ -10,7 +10,10 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-// TODO: Wrong Answer
+/**
+ * Verdict: Wrong Answer
+ * Refer to {@link dev.rizaldi.leetcode.problem.p3710.Solution} for Accepted solution
+ */
 public class Solution {
     public int maxPartitionFactor(int[][] points) {
         final List<Point> pointList = Arrays.stream(points)
