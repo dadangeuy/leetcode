@@ -11,8 +11,8 @@ import java.util.PriorityQueue;
 import java.util.Set;
 
 /**
- * Verdict: Wrong Answer
- * Refer to {@link dev.rizaldi.leetcode.problem.p3710.Solution} for Accepted solution
+ * <p>Verdict: Wrong Answer</p>
+ * <p>Refer to {@link dev.rizaldi.leetcode.problem.p3710.Solution} for Accepted solution</p>
  */
 public class Solution {
     public int maxPartitionFactor(int[][] points) {

@@ -3,7 +3,10 @@ package dev.rizaldi.leetcode.contest.w471.q3;
 import java.util.Arrays;
 import java.util.Comparator;
 
-// TODO: Wrong Answer
+/**
+ * <p>Verdict: Wrong Answer</p>
+ * <p>Refer to {@link dev.rizaldi.leetcode.problem.p3714.Solution} for Accepted solution</p>
+ */
 public class Solution {
     public int longestBalanced(String s) {
         // case 1: single char (a, b, c)
