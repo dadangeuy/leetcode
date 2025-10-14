@@ -37,6 +37,16 @@ public class TestHelper {
             final Function<I, O> process,
             final Class<I> inputClass,
             final Class<O> outputClass,
+            final String... caseIds
+    ) throws Exception {
+        final File directory = getDirectory(inputClass);
+        run(process, inputClass, outputClass, directory, caseIds);
+    }
+
+    public static <I, O> void run(
+            final Function<I, O> process,
+            final Class<I> inputClass,
+            final Class<O> outputClass,
             final File directory,
             final String... caseIds
     ) throws Exception {
