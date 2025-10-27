@@ -7,6 +7,10 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.stream.IntStream;
 
+/**
+ * <p>Verdict: Wrong Answer</p>
+ * <p>Refer to {@link dev.rizaldi.leetcode.problem.p3725.Solution} for Accepted solution</p>
+ */
 public class Solution {
     private static final long MODULO = 1000000007;
     private static final int[] PRIMES = getPrimes(150);
