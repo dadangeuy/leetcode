@@ -1,0 +1,9 @@
+{
+  "numCourses": 2,
+  "prerequisites": [
+    [
+      1,
+      0
+    ]
+  ]
+}
